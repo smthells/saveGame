@@ -55,7 +55,6 @@ public class Main {
             }
             System.out.println("Zip архив создан!");
             System.out.println();
-
             for (String filePath : filesToZip) {
                 File file = new File(filePath);
                 if (file.delete()) {
